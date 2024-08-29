@@ -4,13 +4,50 @@
     box-sizing: border-box;
 }
 
+/* Make sure define .container as flexbox */
+/* justify-contennt: center = horizontal alignment */
+
 .menu-container {
     color: #fff;
     background-color: #5995DA;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
+/* space-around = value spreads its items out across its entire width */
+/* space-between = only adds that extra space between items */
+
 .menu {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+/* align-items: ... = vertical alignment */
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
