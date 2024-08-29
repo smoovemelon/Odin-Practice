@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    padding: 20px;
+    background-color: #ffcbd4;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container {
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boobear {
+    font-size: 2rem;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    background-color: #ffcbd4;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+img {
+    border: 5px solid black;
+}
+
+
+
+
+
+
+
