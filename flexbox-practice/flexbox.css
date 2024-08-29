@@ -51,3 +51,23 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* flex-wrap: wrap; = Doesn't let items flow off page */
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
