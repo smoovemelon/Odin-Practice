@@ -10,24 +10,23 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.box {
-    font-size: 2rem;
-    background-color: pink;
+.card {
+    background: #e3f4ff;
     text-align: center;
-    /* BOX MODEL */
-    width: 300px;
-    height: 100px;
-    padding: 16px;
-    border: 5px solid black;
-    margin: 0px;
+    width: 500px;
+    margin: 0 auto;
 }
 
-.topics {
-    font-size: large;
-    font-weight: 600;
+.title {
+    padding: 8px;
 }
 
-.links {
-    font-size: medium;
-    font-weight: 300;
+.description {
+    padding: 8px;
+}
+
+.links-container {
+}
+
+.links{
 }
