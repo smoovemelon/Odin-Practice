@@ -5,28 +5,45 @@
 }
 
 * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .card {
-    background: #e3f4ff;
+    background: #fdd3da;
     text-align: center;
     width: 500px;
     margin: 0 auto;
+    border-style: solid; color: black;
 }
 
 .title {
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #fff0f2;
+    margin: 8px;
     padding: 8px;
+    border-style: solid; color: black;
 }
 
 .description {
+    font-weight: 300;
+    background-color: #fff0f2;
+    margin: 8px;
     padding: 8px;
-}
-
-.links-container {
+    border-style: solid; color: black;
 }
 
 .links{
+    background-color: #fff0f2;
+    margin: 8px;
+    padding: 8px;
+    border-style: solid; color: black;
+}
+
+/* Makes sure there is no line underneath visited links */
+
+a, a:visited, a:hover, a:active {
+    text-decoration:none;
 }
