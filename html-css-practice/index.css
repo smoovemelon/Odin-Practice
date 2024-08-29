@@ -11,7 +11,7 @@
 }
 
 .card {
-    background: #fdd3da;
+    background: #c2deff;
     text-align: center;
     width: 500px;
     margin: 0 auto;
@@ -21,7 +21,7 @@
 .title {
     font-size: 32px;
     font-weight: 400;
-    background-color: #fff0f2;
+    background-color: #ffc9d0;
     margin: 8px;
     padding: 8px;
     border-style: solid; color: black;
@@ -29,14 +29,14 @@
 
 .description {
     font-weight: 300;
-    background-color: #fff0f2;
+    background-color: #ffffff;
     margin: 8px;
     padding: 8px;
     border-style: solid; color: black;
 }
 
 .links{
-    background-color: #fff0f2;
+    background-color: #ffffff;
     margin: 8px;
     padding: 8px;
     border-style: solid; color: black;
@@ -46,4 +46,5 @@
 
 a, a:visited, a:hover, a:active {
     text-decoration:none;
+    color: black;
 }
