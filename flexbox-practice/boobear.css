@@ -43,18 +43,28 @@
 
 .photo-grid {
     background-color: #ffcbd4;
-    width: 900px;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
+    flex: 1;
 }
 
 img {
-    border: 5px solid black;
+    border: 8px solid black;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-item {
+    background-color: #ffebee;
+    height: 200px;
+    flex: 1;
 }
 
 
