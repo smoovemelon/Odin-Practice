@@ -1,0 +1,79 @@
+* {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: #1db954;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-weight: bold;
+    width: 900px;
+    padding: 10px;
+    display: flex;
+}
+
+.spotify {
+    font-size: 2rem;
+}
+
+.signup,
+.login {
+    margin-top: 8px;
+}
+
+.signup {
+    margin-left: auto;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.listen-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.listen {
+    color: white;
+    font-weight: bold;
+    width: 900px;
+    height: 200px;
+    
+}
+
+.gallery-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-header {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    width: 900px;
+    padding: 10px;
+    /* margin-top: 150px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
