@@ -1,0 +1,59 @@
+/* Added universal selector to reset the padding, margin, and box-sizing */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+/* Added classes to make flex-containers to house flex-items */
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 52px;
+    text-align: center;
+}
+
+/* .items and img are flex-items */
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+  img {
+    display: flex;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  
+  /* do not edit this footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
