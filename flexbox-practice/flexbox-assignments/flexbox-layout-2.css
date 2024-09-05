@@ -38,9 +38,9 @@ body {
   .header {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 16px;
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 900;
   }
 
   .sidebar-card-container {
@@ -49,17 +49,19 @@ body {
 
   .sidebar {
     display: flex;
-    padding: 10px;
-    width: 570px
+    flex-shrink: 0;
+    padding: 16px;
+    width: 300px
   }
 
   li {
     margin-bottom: 15px;
+    font-size: 24px;
   }
 
   .card-container {
     display: flex;
-    padding: 20px;
+    padding: 48px;
     flex-wrap: wrap;
   }
 
@@ -68,6 +70,12 @@ body {
     height: 300px;
     padding: 15px;
     margin: 15px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   a {
