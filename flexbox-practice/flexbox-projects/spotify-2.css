@@ -141,7 +141,7 @@ button {
 
 .text {
     color: #1F2937;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     width: 150px;
 }
@@ -191,7 +191,7 @@ button {
     width: 1000px;
     height: 150px;
     margin: 100px;
-    background-color: #3882F6;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -199,6 +199,7 @@ button {
     display: flex;
     flex-direction: column;
     margin: auto;
+    gap: 5px;
 }
 
 .call-main-text {
@@ -215,14 +216,14 @@ button {
 
 .call-button {
     border-radius: 10px;
-    border: 2px solid white;
+    border: none;
     margin: auto;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: #1db954;
 }
 
 .footer-items {
