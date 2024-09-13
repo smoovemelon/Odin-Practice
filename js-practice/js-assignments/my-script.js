@@ -1,16 +1,3 @@
-/* if...else statements 
-
-let shoppingDone = false;
-let childsAllowance;
-
-if (shoppingDone === true) {
-  childsAllowance = 10;
-} else {
-  childsAllowance = 5;
-}
-
-*/
-
 const select = document.querySelector("select");
 const para = document.querySelector("p");
 
@@ -20,14 +7,14 @@ function setEmotion() {
   const choice = select.value;
 }
 
-if (choice === "happy"); {
-  para.textContent = "Comedy";
-} else if (choice === "sad"); {
-  para.textContent = "Drama";
-} else if (choice === "fear"); {
-  para.textContent = "Horror"; 
-} else if (choice === "anger"); {
-  para.textContent = "Action";
+if (choice === "happy") {
+    para.textContent = "Comedy";
+} else if (choice === "sad") {
+    para.textContent = "Drama";
+} else if (choice === "angry") {
+    para.textContent = "Action"; 
+} else if (choice === "fear") {
+    para.textContent = "Horror"; 
 } else {
-  para.textContent = "";
-  }
+    para.textContent = "";
+}
