@@ -18,3 +18,16 @@ function setEmotion() {
         para.textContent = "";
     }
 }
+/* 
+    let days = 31;
+    if (choice === February) {
+        days = 28;
+    } else if (
+        choice === "April" ||
+        choice === "June" ||
+        choice ==="September" ||
+        choice === "November"
+    ) {
+        days = 30;
+    }
+*/
