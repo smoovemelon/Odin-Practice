@@ -55,13 +55,36 @@ let message = (lbs < 85) ? "You're really light!":
 alert(message);
  */
 
-let fatty = prompt("Is Boobear a fatty? (yes/no)");
+/* 
+let official = prompt("What is the 'official' name of JavaScript?");
+let output;
 
-if (fatty == "yes") {
-  alert("Why yes you are!");
+if (official == "ECMAScript") {
+  output = "Right!";
 } else {
-  alert("Yes you are!!!");
+  output = "You don't know? ECMAScript!";
 }
-  
-  
 
+alert(output);
+ */
+
+/* 
+let value = prompt("Type a number.");
+
+if (value > 0) {
+  alert(1);
+} else if (value < 0) {
+  alert(-1);
+} else {
+  alert(0);
+}
+ */
+
+/* let result = (a + b < 4) ? "below" : "over"; */
+
+/* 
+let message = (login == "Employee") ? "Hello" :
+  (login == "Director") ? "Greetings" :
+  (login == "") ? "No login" :
+  "";
+   */
