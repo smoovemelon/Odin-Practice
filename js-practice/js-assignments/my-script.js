@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 /* 
 const select = document.querySelector("select");
+=======
+const select = document.querySelector("#emotion");
+>>>>>>> 8de45cea0dd83a6ca9cb8b2ec114448d1bb2d318
 const para = document.querySelector("p");
 
 select.addEventListener("change", setPoop);
 
 function setPoop() {
   const choice = select.value;
+<<<<<<< HEAD
 
   if (choice === "yes") {
     para.textContent = "Scoop Toro's poop.";
@@ -122,3 +127,31 @@ switch (a) {
     break;
 }
  */
+=======
+
+    if (choice === "happy") {
+    para.textContent = "Comedy";
+    } else if (choice === "sad") {
+        para.textContent = "Drama";
+    } else if (choice === "angry") {
+        para.textContent = "Action"; 
+    } else if (choice === "fear") {
+        para.textContent = "Horror"; 
+    } else {
+        para.textContent = "";
+    }
+}
+/* 
+    let days = 31;
+    if (choice === February) {
+        days = 28;
+    } else if (
+        choice === "April" ||
+        choice === "June" ||
+        choice ==="September" ||
+        choice === "November"
+    ) {
+        days = 30;
+    }
+*/
+>>>>>>> 8de45cea0dd83a6ca9cb8b2ec114448d1bb2d318
