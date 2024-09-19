@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-/* 
-const select = document.querySelector("select");
-=======
-const select = document.querySelector("#emotion");
->>>>>>> 8de45cea0dd83a6ca9cb8b2ec114448d1bb2d318
-const para = document.querySelector("p");
-
-select.addEventListener("change", setPoop);
-
-function setPoop() {
-  const choice = select.value;
-<<<<<<< HEAD
-
-  if (choice === "yes") {
-    para.textContent = "Scoop Toro's poop.";
-  } else if (choice === "no") {
-    para.textContent = "Scoop Toro's poop later.";
-  } else {
-    para.textContent = "";
-  }
-}
- */
-
 /* 
 let age = prompt("What is your age?");
 
