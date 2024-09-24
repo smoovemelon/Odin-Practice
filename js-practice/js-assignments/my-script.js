@@ -1,4 +1,5 @@
 /* 
+<<<<<<< HEAD
 let age = prompt("What is your age?");
 
 if (age > 18) {
@@ -101,6 +102,37 @@ switch (a) {
   case 3:
     alert("2,3");
     break;
+=======
+    let days = 31;
+    if (choice === February) {
+        days = 28;
+    } else if (
+        choice === "April" ||
+        choice === "June" ||
+        choice ==="September" ||
+        choice === "November"
+    ) {
+        days = 30;
+    }
+*/
+/* 
+switch(choice) {
+    case "white":
+        update ("white", "black");
+        break;
+    case "black":
+        update ("black", "white");
+        break;
+    case "purple":
+        update ("purple", "yellow");
+        break;
+    case "yellow":
+        update ("yellow", "purple");
+        break;
+    case "psychedelic":
+        update ("lime", "yellow");
+        break;
+>>>>>>> 2d18dfd (HTML and CSS practice)
 }
  */
 
